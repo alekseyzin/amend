@@ -1,0 +1,45 @@
+.holder{
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    padding: 10px 0;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 20px;
+    background-color: green;
+    flex-grow: 0;
+}
+.right{
+    height: 100%;
+    background-color: yellow;
+    flex-grow: 1;
+}
+.resize{
+    height: 100%;
+    width: 2px;
+    background-color: grey;
+    flex-grow: 0;
+    cursor: col-resize;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-right {
+    width: 100%;
+    height: auto;
+}
+
+.column-left {
+    width: 100%;
+}
+
+.column-resize {
+    width: 100%;
+    height: 2px;
+    cursor: n-resize;
+}
