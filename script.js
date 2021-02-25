@@ -58,3 +58,4 @@ document.addEventListener('mouseup', () => {
     console.log('moouseup')
     document.onmousemove = null;
 })
+
