@@ -29,17 +29,17 @@
     flex-direction: column;
 }
 
-.column-right {
-    width: 100%;
-    height: auto;
-}
-
-.column-left {
-    width: 100%;
-}
-
 .column-resize {
     width: 100%;
     height: 2px;
     cursor: n-resize;
+}
+
+.svg {
+    height: 100px;
+    width: 100px;
+    background-image: url("cursor-size.svg");
+}
+#button {
+    cursor: url("cursor-size.svg"), auto;
 }
